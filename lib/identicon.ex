@@ -37,7 +37,7 @@ defmodule Identicon do
 
   # Add first two indices (reversed) to each row
   def mirror_row([first, second, _tail] = row) do
-    Enum.into([second, first], row)
+    row ++ [second, first]
   end
 
   def filter_odd_squares(%Identicon.Image{grid: grid} = image) do
