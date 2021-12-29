@@ -1,6 +1,11 @@
 # Identicon
 
-**TODO: Add description**
+```bash
+iex(3)> Identicon.main('jdannel@spinvfx.com')
+:ok
+```
+
+![Example output](res/jdannel@spinvfx.com.png)
 
 ## Installation
 
