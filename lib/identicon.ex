@@ -1,5 +1,4 @@
 defmodule Identicon do
-
   def main(input) do
     input 
     |> hash_string
