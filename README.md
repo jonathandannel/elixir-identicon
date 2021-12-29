@@ -1,6 +1,8 @@
 # Identicon
 
 ```bash
+iex -S mix
+..
 iex(3)> Identicon.main('jdannel@spinvfx.com')
 :ok
 ```
